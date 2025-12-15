@@ -1,0 +1,54 @@
+.picker {
+    margin-bottom: 1.5rem;
+  }
+  
+  .picker label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ddd6cb;
+    letter-spacing: 0.1rem;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .preview {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #454040;
+    background-color: #1c1917;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ddd6cb;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .preview p {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .button {
+    border: 0;
+    padding: 0.5rem 1.5rem;
+    background-color: #a8a29e;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: inherit;
+    color: #13120f;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #b2aba5;
+  }
