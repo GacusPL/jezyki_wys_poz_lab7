@@ -36,3 +36,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Pozwalamy na wrzucenie bazy danych i zdjęć do repozytorium
+!meals.db
+!public/images/
